@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #121212;
+    --secondary-color: #f1f1f1;
+
+}
+
+.App {
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+
+  }
+
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+  
+
+/* Make each section fill the viewport */
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-bottom: 1px solid #333;
+}
+
+
+
